@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+<style>
+    .header {
+        padding: 30px;
+    }
+    .header .navbar{
+        background: #000;
+        display: flex;
+       
+    }
+    .header .navbar .menu ul{
+        display: flex;
+    }
+    .header .navbar .logo {
+        width: 30%;
+        padding: 0px 100px;
+    }
+    .header .navbar .logo img{
+        width: 200px;
+    }
+    .header .navbar .menu {
+        width: 70%;
+        padding: 20px 200px;
+    }
+    .header .navbar .menu ul {
+        list-style: none;
+        justify-content:space-around;
+    }
+    .header .navbar .menu ul a{
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .header .navbar .menu ul i{
+        color: #fff;
+    }
+    .header .banner {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 200px;
+    }
+    
+    .header .banner .img {
+        width: 50%;
+        padding: 40px;
+        
+    }
+    .header .banner .html{
+        width: 100%;
+        text-align: left;
+        padding: 200px;
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 50px;
+    }
+    .header .banner .p1{
+        color: rgb(196, 157, 32);
+        font-size: 30px;
+        font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+    }
+    .header .banner .p2{
+        margin-top: 10px;
+
+    }
+    button{
+        background: rgb(196, 157, 32);
+        color: #fff;
+        text-transform: uppercase ;
+        padding: 20px 30px;
+        border: 1px solid white;
+    }
+    span{
+        color: rgb(196, 157, 32);
+    }
+
+    
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="image/pet_mobile.png" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#"><span>Home</span></a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                   <li> <i class="fa-solid fa-magnifying-glass"></i>  <i class="fa-solid fa-bars"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="html">
+            <p class="p1"><i>Rockstar treatment for your pet.</i></p>
+            <h1> Grooming with <p class="p2"> gentle care. </p></h1>
+            <button>Contact us</button>
+            </div>
+            <div class="img">
+            <img src="image/meo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
